@@ -1,0 +1,9 @@
+app:
+  name: "MyApp"
+  port: 8080
+  debug: true
+database:
+  url: "postgres://user:pass@localhost/db"
+  pool_size: 10
+ip2region:
+  xdb_filepath: src/extend/ip2region.xdb
